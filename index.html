@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="about-text">
+            <h2>Portfolio -<span>--</span></h2>
+        </div>
+        <nav>
+            <span class="nav-item" onclick="scrollToSection('hero')">Home</span>
+            <span class="nav-item" onclick="scrollToSection('about-section')">About</span>
+            <span class="nav-item" onclick="scrollToSection('services-section')">Services</span>
+            <span class="nav-item" onclick="scrollToSection('projects-section')">Portfolio</span>
+            <span class="nav-item" onclick="scrollToSection('contact-section')">Contact</span>
+        </nav>
+    </header>
+
+    <div class="hero" id="hero">
+        <div class="hero-text">
+            <h1>Hello, It's Me<br>Ayman Najib</h1>
+            <p>And I'm a <span class="animated-text" id="animated-text"></span></p>
+            <p>Experienced in web and mobile development, specializing in UI/UX design to deliver effective and visually appealing solutions.</p>
+            <div class="social-icons">
+                
+            </div>
+            <a class="cta-button" href="#">Download CV</a>
+        </div>
+        <div class="about-image">
+            <img src="assets/images/logo.png" alt="Profile Illustration">
+        </div>
+    </div>
+
+    <div class="about-section" id="about-section">
+        <div class="about-image">
+            <img src="assets/images/logo.png" alt="About Illustration">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a UI/UX designer and web/mobile developer passionate about crafting user-centered digital experiences. I believe that effective design starts with understanding user needs and translating them into intuitive and engaging interfaces. I bring a strong foundation in front-end development to ensure seamless functionality and pixel-perfect execution.</p>
+            <a class="cta-button" href="#">See more</a>
+        </div>
+    </div>
+
+    <div class="services-section" id="services-section">
+        <h2>Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>We build robust and scalable web applications using the latest technologies. From front-end development with responsive design to back-end architecture and database management.</p>
+                <a class="cta-button" href="#">Read more</a>
+            </div>
+            <div class="service-card">
+                <h3>Mobile Development</h3>
+                <p>We create innovative and intuitive mobile apps that connect with your audience and drive business growth, focusing on user experience and seamless integration.</p>
+                <a class="cta-button" href="#">Read more</a>
+            </div>
+            <div class="service-card">
+                <h3>UX/UI Design</h3>
+                <p>We create beautiful and intuitive user interfaces that enhance usability and drive engagement, covering everything from visual design to interaction design.</p>
+                <a class="cta-button" href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-section" id="projects-section">
+        <h2>Our <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/images/1.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Desktop Application</h3>
+                    <p>A desktop application to manage hotel operations, including reservations, room management, guest information, billing, and reporting.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/6.png" alt="Project 6">
+                <div class="project-overlay">
+                    <h3>web Development</h3>
+                    <p>built using html and css.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/2.png" alt="Project 2">
+                <div class="project-overlay">
+                    <h3>Web Development</h3>
+                    <p>A responsive e-commerce website that provides an enhanced shopping experience for users.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/3.png" alt="Project 3">
+                <div class="project-overlay">
+                    <h3>Mobile Application</h3>
+                    <p>An intuitive mobile app designed for food delivery with real-time tracking and seamless payment options.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="assets/images/4.png" alt="Project 4">
+                <div class="project-overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing creative works, skills, and achievements.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/5.png" alt="Project 5">
+                <div class="project-overlay">
+                    <h3>Data Dashboard</h3>
+                    <p>An interactive data visualization dashboard for tracking business performance and metrics.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+             <div class="project-card">
+                <img src="assets/images/1.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Desktop Application</h3>
+                    <p>A desktop application to manage hotel operations, including reservations, room management, guest information, billing, and reporting.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/images/6.png" alt="Project 6">
+                <div class="project-overlay">
+                    <h3>Game Development</h3>
+                    <p>A 2D game built using Unity, featuring engaging gameplay and stunning visuals.</p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section" id="contact-section">
+        <h2>Contact <span>Me!</span></h2>
+        <form class="contact-form">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Mob. Number" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <h3>Let's Connect</h3>
+        <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+        <p>© 2025 Ayman Najib. All rights reserved.</p>
+        <a href="#hero" class="back-to-top">Back to Top</a>
+    </footer>
+
+    <script>
+        const texts = ["Web Developer", "Application Developer", "UX/UI Designer"];
+        let index = 0;
+        let charIndex = 0;
+        const speed = 100; // typing speed
+        const eraseSpeed = 50; // erasing speed
+        const delayBetweenTexts = 1000; // delay between two texts
+
+        const animatedTextElement = document.getElementById("animated-text");
+
+        function typeEffect() {
+            if (charIndex < texts[index].length) {
+                animatedTextElement.textContent += texts[index][charIndex];
+                charIndex++;
+                setTimeout(typeEffect, speed);
+            } else {
+                setTimeout(eraseEffect, delayBetweenTexts);
+            }
+        }
+
+        function eraseEffect() {
+            if (charIndex > 0) {
+                animatedTextElement.textContent = texts[index].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(eraseEffect, eraseSpeed);
+            } else {
+                index = (index + 1) % texts.length;
+                setTimeout(typeEffect, delayBetweenTexts);
+            }
+        }
+
+        typeEffect();
+
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
